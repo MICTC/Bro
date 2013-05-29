@@ -2,7 +2,7 @@
 #include <UnitTest++.h>
 TEST(FailSpectacularly)
 	{
-		CHECK(true);
+		CHECK(false);
 	}
 
 int main()
