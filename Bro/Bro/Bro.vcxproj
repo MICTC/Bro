@@ -50,12 +50,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\UnitTest++\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\UnitTest++\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\UnitTest++\Debug\UnitTest++.vsnet2005.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\UnitTest++\Debug\UnitTest++.vsnet2005.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>$(TargetPath)</Command>
